@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E20374E91F6FAD3200FF5EB3 /* TPWidgetBridgeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E20374E71F6FAD3200FF5EB3 /* TPWidgetBridgeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E20374F11F6FAE9500FF5EB3 /* TPWidgetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E20374F01F6FAE9500FF5EB3 /* TPWidgetBridge.m */; };
-		E20374F21F6FAF0400FF5EB3 /* TPWidgetBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E20374EF1F6FAE9500FF5EB3 /* TPWidgetBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20374F51F6FB51E00FF5EB3 /* TPWidgetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E20374F31F6FB51E00FF5EB3 /* TPWidgetBridge.m */; };
+		E20374F61F6FB51E00FF5EB3 /* TPWidgetBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E20374F41F6FB51E00FF5EB3 /* TPWidgetBridge.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E20374E41F6FAD3200FF5EB3 /* TPWidgetBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPWidgetBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20374E71F6FAD3200FF5EB3 /* TPWidgetBridgeUmbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPWidgetBridgeUmbrella.h; sourceTree = "<group>"; };
 		E20374E81F6FAD3200FF5EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E20374EF1F6FAE9500FF5EB3 /* TPWidgetBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPWidgetBridge.h; path = ../../TPWidgetBridge/TPWidgetBridge.h; sourceTree = "<group>"; };
-		E20374F01F6FAE9500FF5EB3 /* TPWidgetBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TPWidgetBridge.m; path = ../../TPWidgetBridge/TPWidgetBridge.m; sourceTree = "<group>"; };
+		E20374F31F6FB51E00FF5EB3 /* TPWidgetBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWidgetBridge.m; sourceTree = "<group>"; };
+		E20374F41F6FB51E00FF5EB3 /* TPWidgetBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWidgetBridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +50,8 @@
 		E20374E61F6FAD3200FF5EB3 /* TPWidgetBridge */ = {
 			isa = PBXGroup;
 			children = (
-				E20374EF1F6FAE9500FF5EB3 /* TPWidgetBridge.h */,
-				E20374F01F6FAE9500FF5EB3 /* TPWidgetBridge.m */,
+				E20374F41F6FB51E00FF5EB3 /* TPWidgetBridge.h */,
+				E20374F31F6FB51E00FF5EB3 /* TPWidgetBridge.m */,
 				E20374E71F6FAD3200FF5EB3 /* TPWidgetBridgeUmbrella.h */,
 				E20374E81F6FAD3200FF5EB3 /* Info.plist */,
 			);
@@ -66,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20374E91F6FAD3200FF5EB3 /* TPWidgetBridgeUmbrella.h in Headers */,
-				E20374F21F6FAF0400FF5EB3 /* TPWidgetBridge.h in Headers */,
+				E20374F61F6FB51E00FF5EB3 /* TPWidgetBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20374F11F6FAE9500FF5EB3 /* TPWidgetBridge.m in Sources */,
+				E20374F51F6FB51E00FF5EB3 /* TPWidgetBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
