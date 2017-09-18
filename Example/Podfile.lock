@@ -1,0 +1,19 @@
+PODS:
+  - TPLayout (1.0.2)
+  - TPWidgetBridge (1.0.1)
+
+DEPENDENCIES:
+  - TPLayout
+  - TPWidgetBridge (from `../`)
+
+EXTERNAL SOURCES:
+  TPWidgetBridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TPLayout: 85222e8b3648757dead46f4db892b08b05ba1377
+  TPWidgetBridge: 31e4e8107b4c0fd05e1ad5069670505b9dc23fc4
+
+PODFILE CHECKSUM: 32b6c240628d0225509ab88a0c07719e26f9c833
+
+COCOAPODS: 1.2.1

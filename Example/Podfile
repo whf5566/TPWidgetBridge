@@ -1,0 +1,18 @@
+workspace 'TPWidgetBridgeDemo'
+project 'TPWidgetBridgeDemo.xcodeproj'
+
+platform :ios, '8.0'
+
+target "TPWidgetBridgeDemo" do
+    
+pod 'TPLayout'
+pod 'TPWidgetBridge', :path => '../'
+
+end
+
+target "TodayWidget" do
+    
+pod 'TPLayout'
+pod 'TPWidgetBridge', :path => '../'
+
+end
